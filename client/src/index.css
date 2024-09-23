@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: aliceblue;
+    /* max-width: 100%;
+    max-height: 100vh; */
+    overflow: hidden;
+}
+
+.active{
+    background: linear-gradient(45deg, orange, white);
+    border-left: 5px double white;
+    border-right: 5px double white;
+
+}
