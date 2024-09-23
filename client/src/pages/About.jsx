@@ -7,7 +7,7 @@ function About() {
       <div className='' style={{width:800}}>
         <div className=' absolute left-32 top-40 bg-slate-100 z-10' style={{width:550, height:600}}>
           <div className=' relative top-8 left-20'>
-            <img style={{width: 700, height:550}} src={myImage} alt="me" />
+            {/* <img style={{width: 700, height:550}} src={myImage} alt="me" /> */}
           </div>
         </div>
         <div className=' absolute left-40 top-48  bg-gradient-to-tr from-blue-200 to-slate-500' style={{width:550, height:600}}></div>
