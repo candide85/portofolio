@@ -31,8 +31,10 @@ function Contact() {
     message: inputs.message
   }
 
+  const url1 = "https://portofolio-api-gamma.vercel.app/api/sendEmail"
+  // const url2 = "http://localhost:4000/api/sendEmail"
   const sendMessage = async () => {
-    const res = await axios.post("http://localhost:4000/api/sendEmail",payload)
+    const res = await axios.post(url1,payload)
     .catch(error => {
       console.log(error);
     })
