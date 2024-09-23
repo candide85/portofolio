@@ -8,7 +8,8 @@ const app = express()
 
 app.use(express.json())
 app.use(cors({
-    origin: `https://portofolio-frontend-beta.vercel.app/`
+    origin: [`http://localhost:5173`,`https://portofolio-frontend-beta.vercel.app`],
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }))
 
 app.use('/api', mail_router)
