@@ -1,16 +1,17 @@
 import React from 'react'
-import myImage from '../images/ty.png'
+import myImage from '../images/sitePhoto.png'
 
 function About() {
   return (
-    <section className='flex container-fluid mx-10 m-auto bg-gradient-to-tr from-blue-950 to-white h-screen'>
-      <div className='' style={{width:800}}>
-        <div className=' absolute left-32 top-40 bg-slate-100 z-10' style={{width:550, height:600}}>
-          <div className=' relative top-8 left-20'>
-            {/* <img style={{width: 700, height:550}} src={myImage} alt="me" /> */}
+    <section className='flex container-fluid mx-10 m-auto bg-gradient-to-tr from-blue-950 to-white h-screen relative'>
+      <div className='relative top-24' style={{width:750, height:750, backgroundColor:'#e198ac', borderRadius:500}}>
+        <div className=' absolute  z-10 top-20 left-40' style={{width:400, height:400, borderRadius:500, backgroundColor:'#d8a4b5'}}>
+          <div className=' relative' style={{backgroundColor:'#d8a4b5',borderRadius:500}}>
+            <img style={{width: 800, height:700}} src={myImage} alt="me" className='' />
           </div>
         </div>
-        <div className=' absolute left-40 top-48  bg-gradient-to-tr from-blue-200 to-slate-500' style={{width:550, height:600}}></div>
+        <div className=' absolute left-20 top-10' 
+        style={{width:550, height:600, borderRadius:500, backgroundColor:'#eec9db'}}></div>
       </div>
       <div className='flex-grow text-justify'>
         <h2 className='font-serif font-semibold text-4xl p-2 mt-14'>Hi, Welcome!</h2>
