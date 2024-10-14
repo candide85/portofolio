@@ -9,7 +9,7 @@ function Projects() {
   return (
     <section className='container-fluid  mx-10 m-auto bg-gradient-to-bl from-red-400 to-white h-screen'>
     <div className='max-w-full h-screen'>
-      <h1 className='text-center text-5xl pt-10 border-y-4 pb-2 text-white font-bold font-serif'>SOME OF MY PROJECTS</h1>
+      <h1 className='text-center text-5xl pt-10 border-y-4 pb-2 text-white font-bold .roboto-bold '>SOME OF MY PROJECTS</h1>
       <div>
         <div className='grid grid-cols-3 gap-y-10  mt-10 place-items-center'>
 

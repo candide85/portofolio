@@ -62,24 +62,24 @@ function Contact() {
   return (
     <section className='container-fluid mx-10 m-auto bg-slate-100 max-w-full h-screen'>
     <div className='bg-gradient-to-r from-slate-100 to-pink-500 opacity-90 h-44 text-white flex items-center justify-center mt-1 '>
-      <h1 className='text-6xl text-slate-950 font-bold font-serif'>
+      <h1 className='text-6xl text-slate-950 font-bold .roboto-bold '>
         Contact Me
       </h1>
     </div>
     <div className='flex p-1'>
       <div className='w-2/3 bg-gradient-to-bl from-slate-100 to-pink-700 gap-y-10'>
-        <h1 className='text-left p-1 mt-10 ml-10 font-serif font-semibold text-4xl text-slate-950'>Get In Touch</h1>
-        <p className='text-left p-2 my-10 ml-10 font-serif font-normal text-slate-900 text-2xl'>
+        <h1 className='text-left p-1 mt-10 ml-10 .roboto-bold font-bold text-4xl text-slate-950'>Get In Touch</h1>
+        <p className='text-left p-2 my-10 ml-10 .montserrat-thin text-slate-900 text-xl'>
           Thank you for reaching me through email, call or message.
           If your are some suggestion about my projects or need some hint, I will be glad to help you.
           Also any project you need for your business, organisation or freelancer.
           I'm waiting for you.
         </p>
         <div className='flex gap-x-4 p-2 items-center ml-10 text-xl font-medium'>
-          <FaPhone  className='text-white text-2xl' /><span className='text-slate-800'>CI: +225 (0)507692552  / GH: +233 (0)531466881</span>
+          <FaPhone  className='text-white text-2xl' /><span className='text-slate-800 .roboto-bold '>CI: +225 (0)507692552  / GH: +233 (0)531466881</span>
         </div>
         <div className='flex gap-x-4 p-2 ml-10 items-center text-xl'>
-          <IoMailOutline className='text-white text-2xl' /><Link className='text-slate-900'>brainer.techplus@outlook.com</Link>
+          <IoMailOutline className='text-white text-2xl' /><Link className='text-slate-900 .roboto-bold '>brainer.techplus@outlook.com</Link>
         </div>
         <div className='flex text-4xl gap-x-10 ml-10 p-4  mt-2 justify-center'>
           <Link>
